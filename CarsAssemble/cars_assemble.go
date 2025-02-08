@@ -9,7 +9,7 @@ func CalculateWorkingCarsPerHour(productionRate int, successRate float64) float6
 }
 
 func CalcualteWorkingCarsPerMinute(productionRate int, successRate float64) int {
-	return int(float64(productionRate/60) * (successRate / float64(100)))
+	return int(CalculateWorkingCarsPerHour(productionRate, successRate)) / 60
 }
 
 func CalculateCost(carsCount int) uint {
