@@ -5,4 +5,7 @@ Repository with tasks from exercism.org
 The first simple [project](https://github.com/LitvinovKV/GoExercism/tree/main/HelloWorld) on Golang!
 
 # 2) Gorgeous Lasagna
-The [project](https://github.com/LitvinovKV/GoExercism/tree/main/GorgeousLasagna) which can help you to cook a delicious lasagna
+The [project](https://github.com/LitvinovKV/GoExercism/tree/main/GorgeousLasagna) is about packages, constants and functions 
+
+# 3) Cars Assemble
+The [project](https://github.com/LitvinovKV/GoExercism/tree/main/CarsAssemble) is about numbers and arithmetic operators.
