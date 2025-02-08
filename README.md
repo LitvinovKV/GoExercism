@@ -9,3 +9,6 @@ The [project](https://github.com/LitvinovKV/GoExercism/tree/main/GorgeousLasagna
 
 # 3) Cars Assemble
 The [project](https://github.com/LitvinovKV/GoExercism/tree/main/CarsAssemble) is about numbers and arithmetic operators.
+
+# 4) Annalyn's Infiltration
+The [project](https://github.com/LitvinovKV/GoExercism/tree/main/AnnalynsInfiltration) is about booleans
