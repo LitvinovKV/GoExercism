@@ -1,14 +1,29 @@
 # GoExercism
-Repository with tasks from exercism.org
+Repository with exercises from exercism.org
 
-# 1) Hello World!
-The first simple [project](https://github.com/LitvinovKV/GoExercism/tree/main/HelloWorld) on Golang!
+# Easy Tasks
 
-# 2) Gorgeous Lasagna
-The [project](https://github.com/LitvinovKV/GoExercism/tree/main/GorgeousLasagna) is about packages, constants and functions 
+> **Hello world**
+> The first simple exercise on Golang.
+> [solution](https://github.com/LitvinovKV/GoExercism/tree/main/HelloWorld)
+> [task](https://exercism.org/tracks/go/exercises/hello-world)
 
-# 3) Cars Assemble
-The [project](https://github.com/LitvinovKV/GoExercism/tree/main/CarsAssemble) is about numbers and arithmetic operators.
+> **Gorgeous Lasagna**
+> The exericese helped evolve your knowledge of Basics.
+> [solution](https://github.com/LitvinovKV/GoExercism/tree/main/GorgeousLasagna)
+> [task](https://exercism.org/tracks/go/exercises/lasagna)
 
-# 4) Annalyn's Infiltration
-The [project](https://github.com/LitvinovKV/GoExercism/tree/main/AnnalynsInfiltration) is about booleans
+> **Cars Assemble**
+> The exercise helped evolve your knowledge of Numbers and Arithmetic Operators.
+> [solution](https://github.com/LitvinovKV/GoExercism/tree/main/CarsAssemble)
+> [task](https://exercism.org/tracks/go/exercises/cars-assemble)
+
+> **Annalyn's Infiltration**
+> The exercise helped evolve your knowledge of Booleans.
+> [solution](https://github.com/LitvinovKV/GoExercism/tree/main/AnnalynsInfiltration)
+> [task](https://exercism.org/tracks/go/exercises/annalyns-infiltration)
+
+> **Welcome To Tech Palace!**
+> The exercise helped evolve your knowledge of Strings Package and Strings.
+> [solution](https://github.com/LitvinovKV/GoExercism/tree/main/WelcomeToTechPlace)
+> [task](https://exercism.org/tracks/go/exercises/welcome-to-tech-palace)
