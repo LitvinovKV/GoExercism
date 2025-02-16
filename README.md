@@ -22,3 +22,7 @@ Repository with exercises from exercism.org
 > **Welcome To Tech Palace!**<br>
 > The exercise helped evolve your knowledge of Strings Package and Strings.<br>
 > [task](https://exercism.org/tracks/go/exercises/welcome-to-tech-palace) | [solution](https://github.com/LitvinovKV/GoExercism/tree/main/WelcomeToTechPlace)
+
+> **Vehicle Purchase**<br>
+> The exercise helped evolve your knowledge of Conditionals If and Comparison.<br>
+> [task](https://exercism.org/tracks/go/exercises/vehicle-purchase) | [solution](https://github.com/LitvinovKV/GoExercism/tree/main/VehiclePurchase)
