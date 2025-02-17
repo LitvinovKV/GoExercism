@@ -26,3 +26,7 @@ Repository with exercises from exercism.org
 > **Vehicle Purchase**<br>
 > The exercise helped evolve your knowledge of Conditionals If and Comparison.<br>
 > [task](https://exercism.org/tracks/go/exercises/vehicle-purchase) | [solution](https://github.com/LitvinovKV/GoExercism/tree/main/VehiclePurchase)
+
+> **Card Tricks**<br>
+> The exercise helped evolve your knowledge of Slices and Variadic Functions.<br>
+> [task](https://exercism.org/tracks/go/exercises/card-tricks) | [solution](https://github.com/LitvinovKV/GoExercism/tree/main/CardTricks)
