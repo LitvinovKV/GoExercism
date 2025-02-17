@@ -22,10 +22,6 @@ func SetItem(slice []int, index, value int) []int {
 }
 
 func PrependItems(slice []int, values ...int) []int {
-	if len(values) == 0 {
-		return slice
-	}
-
 	return append(values, slice...)
 }
 
