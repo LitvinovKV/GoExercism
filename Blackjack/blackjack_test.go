@@ -100,6 +100,117 @@ func TestParseCard_WhenCardIsOther(t *testing.T) {
 	testParseCard(t, card, expectedCardValue)
 }
 
+func TestFirstTurn_WhenPlayerHasTwoAces(t *testing.T) {
+	card1 := "ace"
+	card2 := "ace"
+	expectedFirstTurn := "P"
+
+	testFirstTurn(t, card1, card2, "queen", expectedFirstTurn)
+}
+
+func TestFirstTurn_WhenPlayerHasWeakHand(t *testing.T) {
+	card1 := "2"
+	card2 := "3"
+	expectedFirstTurn := "H"
+
+	testFirstTurn(t, card1, card2, "ace", expectedFirstTurn)
+}
+
+func TestFirstTurn_WhenPlayerHitWithLowerMediumHand(t *testing.T) {
+	card1 := "queen"
+	card2 := "two"
+	dealerCard := "ace"
+	expectedFirstTurn := "H"
+
+	testFirstTurn(t, card1, card2, dealerCard, expectedFirstTurn)
+}
+
+func TestFirstTurn_WhenPlayerStandWithLowerMediumHand(t *testing.T) {
+	card1 := "seven"
+	card2 := "five"
+	dealerCard := "three"
+	expectedFirstTurn := "S"
+
+	testFirstTurn(t, card1, card2, dealerCard, expectedFirstTurn)
+}
+
+func TestFirstTurn_WhenPlayerStandWithUpperMediumHand(t *testing.T) {
+	card1 := "king"
+	card2 := "six"
+	dealerCard := "three"
+	expectedFirstTurn := "S"
+
+	testFirstTurn(t, card1, card2, dealerCard, expectedFirstTurn)
+}
+
+func TestFirstTurn_WhenPlayerHitWithUpperMediumHand(t *testing.T) {
+	card1 := "eight"
+	card2 := "eight"
+	expectedFirstTurn := "H"
+
+	testFirstTurn(t, card1, card2, "nine", expectedFirstTurn)
+}
+
+func TestFirstTurn_WhenPlayerHitWithMediumHand(t *testing.T) {
+	card1 := "seven"
+	card2 := "six"
+	dealerCard := "nine"
+	expectedFirstTurn := "H"
+
+	testFirstTurn(t, card1, card2, dealerCard, expectedFirstTurn)
+}
+
+func TestFirstTurn_WhenPlayerStandWithMediumHand(t *testing.T) {
+	card1 := "ace"
+	card2 := "four"
+	dealerCard := "three"
+	expectedFirstTurn := "S"
+
+	testFirstTurn(t, card1, card2, dealerCard, expectedFirstTurn)
+}
+
+func TestFirstTurn_WhenPlayerHasLowerStrongHand(t *testing.T) {
+	card1 := "ace"
+	card2 := "six"
+	expectedFirstTurn := "S"
+
+	testFirstTurn(t, card1, card2, "ace", expectedFirstTurn)
+}
+
+func TestFirstTurn_WhenPlayerHasUpperStrongHand(t *testing.T) {
+	card1 := "queen"
+	card2 := "king"
+	expectedFirstTurn := "S"
+
+	testFirstTurn(t, card1, card2, "ace", expectedFirstTurn)
+}
+
+func TestFirstTurn_WhenPlayerHasStrongHand(t *testing.T) {
+	card1 := "nine"
+	card2 := "eight"
+	expectedFirstTurn := "S"
+
+	testFirstTurn(t, card1, card2, "ace", expectedFirstTurn)
+}
+
+func TestFirstTurn_WhenPlayerWinWithBlackJack(t *testing.T) {
+	card1 := "ace"
+	card2 := "queen"
+	dealerCard := "nine"
+	expectedFirstTurn := "W"
+
+	testFirstTurn(t, card1, card2, dealerCard, expectedFirstTurn)
+}
+
+func TestFirstTurn_WhenPlayerStandWithBlackJack(t *testing.T) {
+	card1 := "ace"
+	card2 := "queen"
+	dealerCard := "ten"
+	expectedFirstTurn := "S"
+
+	testFirstTurn(t, card1, card2, dealerCard, expectedFirstTurn)
+}
+
 func testParseCard(t *testing.T, card string, expectedCardValue int) {
 	actualCardValue := ParseCard(card)
 
@@ -109,5 +220,18 @@ func testParseCard(t *testing.T, card string, expectedCardValue int) {
 			card,
 			actualCardValue,
 			expectedCardValue)
+	}
+}
+
+func testFirstTurn(t *testing.T, card1, card2, dealerCard, expectedFirstTurn string) {
+	actualFirstTurn := FirstTurn(card1, card2, dealerCard)
+
+	if expectedFirstTurn != actualFirstTurn {
+		t.Errorf(
+			"FirstTurn(%s, %s) = %s. Expected %s",
+			card1,
+			card2,
+			actualFirstTurn,
+			expectedFirstTurn)
 	}
 }
