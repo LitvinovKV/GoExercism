@@ -32,5 +32,9 @@ Repository with exercises from exercism.org
 > [task](https://exercism.org/tracks/go/exercises/card-tricks) | [solution](https://github.com/LitvinovKV/GoExercism/tree/main/CardTricks)
 
 > **Blackjack**<br>
->The exercise helped evolve your knowledge of Conditionals Switch.<br>
->[task](https://exercism.org/tracks/go/exercises/blackjack) | [solution](https://github.com/LitvinovKV/GoExercism/tree/main/Blackjack)
+> The exercise helped evolve your knowledge of Conditionals Switch.<br>
+> [task](https://exercism.org/tracks/go/exercises/blackjack) | [solution](https://github.com/LitvinovKV/GoExercism/tree/main/Blackjack)
+
+> **Need For Speed**<br>
+> The exercise helped evolve your knowledge of Structs.<br>
+> [task](https://exercism.org/tracks/go/exercises/need-for-speed) | [solution](https://github.com/LitvinovKV/GoExercism/tree/main/NeedForSpeed)
