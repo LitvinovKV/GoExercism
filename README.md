@@ -8,7 +8,7 @@ Repository with exercises from exercism.org
 > [task](https://exercism.org/tracks/go/exercises/hello-world) | [solution](https://github.com/LitvinovKV/GoExercism/tree/main/HelloWorld)
 
 > **Gorgeous Lasagna**<br>
-> The exericese helped evolve your knowledge of Basics.<br>
+> The exercise helped evolve your knowledge of Basics.<br>
 > [task](https://exercism.org/tracks/go/exercises/lasagna) | [solution](https://github.com/LitvinovKV/GoExercism/tree/main/GorgeousLasagna)
 
 > **Cars Assemble**<br>
@@ -38,3 +38,7 @@ Repository with exercises from exercism.org
 > **Need For Speed**<br>
 > The exercise helped evolve your knowledge of Structs.<br>
 > [task](https://exercism.org/tracks/go/exercises/need-for-speed) | [solution](https://github.com/LitvinovKV/GoExercism/tree/main/NeedForSpeed)
+
+> **Bird Watcher**<br>
+> The exercise helped evolve your knowledge of For Loops.<br>
+> [task](https://exercism.org/tracks/go/exercises/bird-watcher) | [solution](https://github.com/LitvinovKV/GoExercism/tree/main/BirdWatcher)
