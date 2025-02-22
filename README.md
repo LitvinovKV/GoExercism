@@ -42,3 +42,7 @@ Repository with exercises from exercism.org
 > **Bird Watcher**<br>
 > The exercise helped evolve your knowledge of For Loops.<br>
 > [task](https://exercism.org/tracks/go/exercises/bird-watcher) | [solution](https://github.com/LitvinovKV/GoExercism/tree/main/BirdWatcher)
+
+> **Lasagna Master**<br>
+> The exercise helped evolve your knowledge of Functions.<br>
+> [task](https://exercism.org/tracks/go/exercises/lasagna-master) | [solution](https://github.com/LitvinovKV/GoExercism/tree/main/LasagnaMaster)
